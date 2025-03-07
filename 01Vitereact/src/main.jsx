@@ -25,8 +25,8 @@ const reactElement =React.createElement(
 )
 createRoot(document.getElementById('root')).render(
 
-    // <App />
+     <App />
     // anotherElement
-    reactElement
+    // reactElement
 
 )
