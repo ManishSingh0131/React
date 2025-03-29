@@ -22,7 +22,9 @@ function App() {
 
   const coppyPasswordToClipboard=useCallback(()=>{
     passwordRef.current?.select();
+    //this line decide how many character will be selected
     passwordRef.current?.setSelectionRange(0,50)
+   //this line decide to coppy the selected text
     window.navigator.clipboard.writeText(password)
 
   },[password])
